@@ -40,8 +40,12 @@ margin-right: 332px;}
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
-    list-style-type: none;
-    padding: 24px o;
+    list-style-type: none;  
+}
+.nav-link:hover,
+.nav-link:focus 
+{
+    color: #404bbf;
 }
     .nav-page .nav-link 
     {
@@ -53,12 +57,10 @@ margin-right: 332px;}
         align-items: center;
         gap: 40px;
         width: 261px;
-        padding: 24px 0;
     }
-.nav-link:hover,
-.nav-link:focus {
-    color: #404bbf;
-}
+    .nav-list .nav-item 
+    { padding: 24px 0;}      
+
 .contacts {
     font-weight: 400;
     font-size: 16px;
