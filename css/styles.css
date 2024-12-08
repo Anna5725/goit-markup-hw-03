@@ -11,10 +11,10 @@ body {
     background-color: #FFFFFF;
 }
 img {display: block;}
-ul {
+ul 
+{
     list-style-type: none;
 }
-
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -39,8 +39,14 @@ margin-right: 332px;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    }
-    .nav-page .nav-link {display: block;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 24px o;
+}
+    .nav-page .nav-link 
+    {
+        display: block;
+       
     }
     .nav-list
      { display: flex;
@@ -49,12 +55,6 @@ margin-right: 332px;}
         width: 261px;
         padding: 24px 0;
     }
-.nav-link {
-    text-decoration: none;
-}
-.nav-link {
-    list-style-type: none;
-}
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
