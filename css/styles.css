@@ -32,7 +32,7 @@ ul
 }
 .nav-page {display: flex;
     align-items: center;
-margin-right: 332px;}
+    margin-right: 332px;}
 .nav-link {
     font-weight: 500;
     font-size: 16px;
@@ -57,9 +57,9 @@ margin-right: 332px;}
         align-items: center;
         gap: 40px;
         width: 261px;
+        padding: 24px 0;
     }
-    .nav-list .nav-item 
-    { padding: 24px 0;}      
+         
 
 .contacts {
     font-weight: 400;
@@ -74,7 +74,7 @@ margin-right: 332px;}
     display: flex; 
     align-items: center;
     gap:40px;
-padding: 24px 0;}
+    padding: 24px 0;}
 .address-link {
     color: #434455;
 }
@@ -139,14 +139,14 @@ margin-right: 645px;}
 .section-two {
     padding: 120px 0 120px;
 }
-.section-two-title.visually-hidden {
-    display: none;
+.section-two-title  {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;}
+.visually-hidden {display: none;}
 .title {
     font-weight: 500;
     font-size: 20px;
