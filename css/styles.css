@@ -169,7 +169,8 @@ margin-right: auto;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #2e2f42; 
+    color: #2e2f42;
+    margin-bottom: 8px; 
 }
 .text {
     font-weight: 400;
@@ -207,6 +208,7 @@ margin-right: auto;
     display:flex;
 }
 .img-list-item {
+    border-radius: 0px 0px 4px 4px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -221,7 +223,8 @@ margin-right: auto;
     color: #2e2f42;
     margin-bottom: 8px;
 }
-.team-container {margin: 32px 16px;}
+.team-container {margin: 32px 16px;
+padding: 32px 0;}
 .team-text {
     font-weight: 400;
     font-size: 16px;
@@ -231,6 +234,8 @@ margin-right: auto;
     color: #434455;
 }
 /*Section4*/
+.section-four {padding-top: 120px;
+padding-bottom: 120px;}
 .section-four .container {margin-bottom: 120px;}
 .section-four-title {
     font-weight: 700;
@@ -259,6 +264,7 @@ margin-right: auto;
     letter-spacing: 0.02em;
     text-align: left;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .text {
     font-weight: 400;
@@ -278,14 +284,16 @@ margin-right: auto;
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
+    padding-right: 16px;
 }
 .section-four .container {margin-bottom: 120px;}
 /*Footer*/
  .footer 
-    {background-color: #2e2f42;}
+    {background-color: #2e2f42;
+    padding: 100px 0;}
  
 .footer .logo {
-    display: flex;
+    display: inline-block;
     margin-bottom: 16px;
     max-width: 264px;
         align-items: center;
